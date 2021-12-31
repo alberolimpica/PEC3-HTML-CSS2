@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.cover {
+  background-image: url("../images/street.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+  height: calc(100vh - 56px);
+}
+
+.orbitron {
+  font-family: $font-family-orbitron;
+}
+
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+
+@layer components {
+  body {
+    @apply bg-gradient-to-b from-background-blue-start via-background-blue-mid to-background-blue-end bg-no-repeat bg-cover;
+  }
+
+  .blockquote-footer {
+    @apply text-nav-blue text-opacity-70;
+  }
+
+  .grid-content {
+    @apply text-nav-blue bg-black bg-opacity-50;
+  }
+
+  h1 {
+    @apply text-pink;
+  }
+}

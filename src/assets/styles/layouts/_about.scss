@@ -1,0 +1,22 @@
+.blog-cabecera {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+mg-l-1-i {
+  margin-left: 1rem !important;
+}
+
+.pquote {
+  float: left;
+  width: 15em;
+  font-weight: bold;
+  margin: 1rem;
+}

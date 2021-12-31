@@ -1,0 +1,1 @@
+!function(){console.log("Hello, ".concat("UOC","!"));var e=document.querySelector("#menu-button"),n=document.querySelector("#menu");e.addEventListener("click",(function(){n.classList.toggle("hidden")}))}();

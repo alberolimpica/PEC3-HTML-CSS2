@@ -1,0 +1,1 @@
+console.log("Hello, UOC!");const e=document.querySelector("#menu-button"),o=document.querySelector("#menu");e.addEventListener("click",(()=>{o.classList.toggle("hidden")}));
